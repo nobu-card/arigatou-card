@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>たえこさん愛情カード</title>
+
+<style>
+
+body{
+    background:#ffe4ec;
+    font-family:Meiryo,sans-serif;
+    text-align:center;
+    padding:20px;
+}
+
+h1{
+    color:#d10050;
+}
+
+button{
+    width:280px;
+    padding:15px;
+    margin:6px;
+    font-size:20px;
+    border:none;
+    border-radius:15px;
+    background:#ff99bb;
+}
+
+button:hover{
+    background:#ff77aa;
+}
+
+#msg{
+    margin-top:25px;
+    padding:25px;
+    background:white;
+    border-radius:20px;
+    font-size:24px;
+    line-height:1.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>❤️たえこさん愛情カード❤️</h1>
+
+<button onclick="msg1()">❤️ありがとう</button><br>
+<button onclick="msg2()">🥰好き</button><br>
+<button onclick="msg3()">💐尊敬</button><br>
+<button onclick="msg4()">😊笑顔</button><br>
+<button onclick="msg5()">🍳料理</button><br>
+<button onclick="msg6()">🏠家族</button><br>
+<button onclick="msg7()">💍結婚</button><br>
+<button onclick="msg8()">🌈未来</button>
+
+<div id="msg">
+ボタンを押してね❤️
+</div>
+
+<script>
+
+function msg1(){
+document.getElementById("msg").innerHTML=
+"❤️ありがとう❤️<br><br>たえこさん。<br>いつも僕を支えてくれてありがとう。";
+}
+
+function msg2(){
+document.getElementById("msg").innerHTML=
+"🥰好き🥰<br><br>毎日たえこさんと話せるだけで幸せです。";
+}
+
+function msg3(){
+document.getElementById("msg").innerHTML=
+"💐尊敬💐<br><br>頑張る姿を心から尊敬しています。";
+}
+
+function msg4(){
+document.getElementById("msg").innerHTML=
+"😊笑顔😊<br><br>たえこさんの笑顔を見ると元気になります。";
+}
+
+function msg5(){
+document.getElementById("msg").innerHTML=
+"🍳料理🍳<br><br>いつも美味しい料理をありがとう。";
+}
+
+function msg6(){
+document.getElementById("msg").innerHTML=
+"🏠家族🏠<br><br>家族を支えてくれて本当に感謝しています。";
+}
+
+function msg7(){
+document.getElementById("msg").innerHTML=
+"💍結婚💍<br><br>たえこさんと結婚できて本当に幸せです。";
+}
+
+function msg8(){
+document.getElementById("msg").innerHTML=
+"🌈未来🌈<br><br>これからも仲良く、たくさん思い出を作ろうね❤️";
+}
+
+</script>
+
+</body>
+</html>
